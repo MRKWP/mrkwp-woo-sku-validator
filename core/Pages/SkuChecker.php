@@ -52,7 +52,7 @@ class SkuChecker {
 			$wpdb->prepare(
 				'SELECT *
 				FROM `wp_postmeta`
-				WHERE `meta_key` = %s AND meta_value REGEXP("[^a-zA-Z0-9-_]")',
+				WHERE `meta_key` = %s AND meta_value REGEXP("[^a-zA-Z0-9-_/.]")',
 				'_sku'
 			)
 		);
