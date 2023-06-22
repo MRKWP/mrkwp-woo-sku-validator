@@ -1,0 +1,19 @@
+{
+    "name": "mrkwp/woo-sku-validator",
+    "description": "SKU Validator for WooCommerce by MRK WP",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "MRK WP",
+            "email": "helpdesk@mrkwp.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "lib"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {"Woo_Sku_Validator\\": "./core"}
+    }
+}
