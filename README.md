@@ -3,6 +3,8 @@ WooCommerce SKU Validator Plugin is an Admin Page to show all invalid SKU values
 
 It is a great tool to validate SKU data before it is pushed to the Merchant Centre in Google.
 
+You can view the video where I explain how this works here: https://youtu.be/RiOtTagR4wo
+
 ## Change Log
 
 ### 1.0.0
